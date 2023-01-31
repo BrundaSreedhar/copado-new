@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Brun_Obj__c</members>
+        <members>B_obj__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Brun_Obj__c-de</members>
-        <members>Brun_Obj__c-en_US</members>
+        <members>B_obj__c-de</members>
+        <members>B_obj__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
-        <members>Brun_Obj__c-Brun-Obj Layout</members>
-        <members>Brun_Obj__c-BrunLyt</members>
-        <members>Brun_Obj__c-BrunLyt%28New%29</members>
+        <members>B_obj__c-B-obj Layout</members>
+        <members>B_obj__c-Lyt1</members>
+        <members>B_obj__c-Lyt2</members>
         <name>Layout</name>
     </types>
     <version>56.0</version>
