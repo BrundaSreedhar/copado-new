@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>TestObj__c</members>
+        <members>BrunBrun__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>TestObj__c-de</members>
-        <members>TestObj__c-en_US</members>
+        <members>BrunBrun__c-de</members>
+        <members>BrunBrun__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
-        <members>TestObj__c-TestLyt</members>
-        <members>TestObj__c-TestObj Layout</members>
+        <members>BrunBrun__c-Brun%28Lyt%29</members>
         <name>Layout</name>
     </types>
     <version>56.0</version>
