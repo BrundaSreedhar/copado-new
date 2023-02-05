@@ -3,50 +3,49 @@
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>false</plural>
-        <value><!-- brutest --></value>
+        <value></value>
     </caseValues>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>true</plural>
-        <value><!-- brutest --></value>
+        <value></value>
     </caseValues>
     <caseValues>
         <caseType>Accusative</caseType>
         <plural>false</plural>
-        <value><!-- brutest --></value>
+        <value></value>
     </caseValues>
     <caseValues>
         <caseType>Accusative</caseType>
         <plural>true</plural>
-        <value><!-- brutest --></value>
+        <value></value>
     </caseValues>
     <caseValues>
         <caseType>Genitive</caseType>
         <plural>false</plural>
-        <value><!-- brutest --></value>
+        <value></value>
     </caseValues>
     <caseValues>
         <caseType>Genitive</caseType>
         <plural>true</plural>
-        <value><!-- brutest --></value>
+        <value></value>
     </caseValues>
     <caseValues>
         <caseType>Dative</caseType>
         <plural>false</plural>
-        <value><!-- brutest --></value>
+        <value></value>
     </caseValues>
     <caseValues>
         <caseType>Dative</caseType>
         <plural>true</plural>
-        <value><!-- brutest --></value>
+        <value></value>
     </caseValues>
-    
     <layouts>
         <layout>bru(new)</layout>
         <sections>
-            <label>pls work</label>
+            <label>please please</label>
             <section>Custom Links</section>
         </sections>
     </layouts>
-    <nameFieldLabel><!-- brutest Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
 </CustomObjectTranslation>
