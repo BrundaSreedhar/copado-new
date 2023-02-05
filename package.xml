@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>SampleObj__c</members>
+        <members>cool__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>SampleObj__c-de</members>
-        <members>SampleObj__c-en_US</members>
+        <members>cool__c-de</members>
+        <members>cool__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
-        <members>SampleObj__c-Sample1</members>
-        <members>SampleObj__c-SampleObj Layout</members>
+        <members>cool__c-cool Layout</members>
+        <members>cool__c-cool%28new%29</members>
         <name>Layout</name>
     </types>
     <version>56.0</version>
