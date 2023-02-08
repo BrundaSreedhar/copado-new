@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>testchanges__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>testchanges__c-de</members>
-        <members>testchanges__c-en_US</members>
-        <name>CustomObjectTranslation</name>
-    </types>
-    <types>
-        <members>testchanges__c-let2%5Bnw%5D</members>
-        <members>testchanges__c-lyt1</members>
-        <members>testchanges__c-lyt3%28test%29</members>
-        <members>testchanges__c-testchange Layout</members>
-        <name>Layout</name>
+        <members>Analytics Cloud Integration User</members>
+        <name>Profile</name>
     </types>
     <version>56.0</version>
 </Package>
