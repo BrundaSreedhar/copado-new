@@ -292,6 +292,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>AppointmentInvitation.AppointmentType</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>AppointmentInvitation.BookingEndDate</field>
         <readable>true</readable>
@@ -1227,6 +1232,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>ContactPointAddress.IsThirdPartyAddress</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>ContactPointAddress.ParentId</field>
         <readable>true</readable>
@@ -1639,11 +1649,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>DataUsePurpose.LegalBasisId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>EngagementChannelType.ContactPointType</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2233,6 +2238,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>MessagingEndUser.LeadId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>MessagingSession.CaseId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2634,6 +2644,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Promotion.IsCommercePromotion</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Promotion.IsTiered</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6429,10 +6444,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-LearningItem</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-LegalEntity</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -6903,11 +6914,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ConfigureLiveMessage</name>
+        <name>ConfigureDataspaceScope</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ConfigureScopedAccessGroup</name>
+        <name>ConfigureLiveMessage</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -7319,6 +7330,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
+        <name>ManageDataspaceScope</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
         <name>ManageDynamicDashboards</name>
     </userPermissions>
     <userPermissions>
@@ -7431,10 +7446,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ManageScopedAccessGroup</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ManageSearchPromotionRules</name>
     </userPermissions>
     <userPermissions>
@@ -7452,6 +7463,10 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ManageSolutions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageStores</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
