@@ -41,19 +41,5 @@
         <value><!-- Flag --></value>
     </caseValues>
     
-    <layouts>
-        <layout>Color(test)</layout>
-        <sections>
-            <label>working now?</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
-    <layouts>
-        <layout>FlagType</layout>
-        <sections>
-            <label>cool</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <nameFieldLabel><!-- Flag Name --></nameFieldLabel>
 </CustomObjectTranslation>

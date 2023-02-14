@@ -41,12 +41,5 @@
         <value><!-- cool --></value>
     </caseValues>
     
-    <layouts>
-        <layout>cool(new)</layout>
-        <sections>
-            <label>cool new obj</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <nameFieldLabel><!-- cool Name --></nameFieldLabel>
 </CustomObjectTranslation>

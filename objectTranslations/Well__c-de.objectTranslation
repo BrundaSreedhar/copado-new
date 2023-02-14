@@ -41,12 +41,5 @@
         <value><!-- Well --></value>
     </caseValues>
     
-    <layouts>
-        <layout>Well(New)</layout>
-        <sections>
-            <label>translate</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <nameFieldLabel><!-- Well Name --></nameFieldLabel>
 </CustomObjectTranslation>

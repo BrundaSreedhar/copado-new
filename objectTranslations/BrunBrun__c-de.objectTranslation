@@ -41,12 +41,5 @@
         <value><!-- BrunBrun --></value>
     </caseValues>
     
-    <layouts>
-        <layout>Brun(Lyt)</layout>
-        <sections>
-            <label>one translation</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <nameFieldLabel><!-- BrunBrun Name --></nameFieldLabel>
 </CustomObjectTranslation>

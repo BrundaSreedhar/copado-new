@@ -41,12 +41,5 @@
         <value><!-- SampleObj --></value>
     </caseValues>
     
-    <layouts>
-        <layout>Sample1</layout>
-        <sections>
-            <label>objj</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <nameFieldLabel><!-- SampleObj Name --></nameFieldLabel>
 </CustomObjectTranslation>

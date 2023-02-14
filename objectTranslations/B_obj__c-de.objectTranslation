@@ -41,19 +41,5 @@
         <value><!-- B-obj --></value>
     </caseValues>
     
-    <layouts>
-        <layout>Lyt1</layout>
-        <sections>
-            <label>one</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
-    <layouts>
-        <layout>Lyt2</layout>
-        <sections>
-            <label>two</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <nameFieldLabel><!-- B-obj Name --></nameFieldLabel>
 </CustomObjectTranslation>

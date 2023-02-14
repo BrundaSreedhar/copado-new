@@ -8,19 +8,5 @@
         <plural>true</plural>
         <value>B-objs</value>
     </caseValues>
-    <layouts>
-        <layout>Lyt1</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
-    <layouts>
-        <layout>Lyt2</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

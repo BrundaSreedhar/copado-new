@@ -8,12 +8,5 @@
         <plural>true</plural>
         <value>cools</value>
     </caseValues>
-    <layouts>
-        <layout>cool(new)</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

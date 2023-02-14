@@ -41,19 +41,5 @@
         <value><!-- Brun-Obj --></value>
     </caseValues>
     
-    <layouts>
-        <layout>BrunLyt</layout>
-        <sections>
-            <label>this</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
-    <layouts>
-        <layout>BrunLyt(New)</layout>
-        <sections>
-            <label>that</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <nameFieldLabel><!-- Brun-Obj Name --></nameFieldLabel>
 </CustomObjectTranslation>

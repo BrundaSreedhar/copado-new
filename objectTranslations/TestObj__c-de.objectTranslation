@@ -41,12 +41,5 @@
         <value><!-- TestObj --></value>
     </caseValues>
     
-    <layouts>
-        <layout>TestLyt</layout>
-        <sections>
-            <label>testobj</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <nameFieldLabel><!-- TestObj Name --></nameFieldLabel>
 </CustomObjectTranslation>

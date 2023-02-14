@@ -41,19 +41,5 @@
         <value><!-- SampleObjNew --></value>
     </caseValues>
     
-    <layouts>
-        <layout>NewLyt</layout>
-        <sections>
-            <label>first</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
-    <layouts>
-        <layout>NewLyt(Test)</layout>
-        <sections>
-            <label>second</label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <nameFieldLabel><!-- SampleObjNew Name --></nameFieldLabel>
 </CustomObjectTranslation>

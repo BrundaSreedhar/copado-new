@@ -8,12 +8,5 @@
         <plural>true</plural>
         <value>Wells</value>
     </caseValues>
-    <layouts>
-        <layout>Well(New)</layout>
-        <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
