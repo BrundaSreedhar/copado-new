@@ -12,6 +12,17 @@
         </sharedFrom>
     </sharingOwnerRules>
     <sharingOwnerRules>
+        <fullName>rule_3</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>rule 3</label>
+        <sharedTo>
+            <roleAndSubordinates>ChannelSalesTeam</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
         <fullName>sharing_owner_3</fullName>
         <accessLevel>Read</accessLevel>
         <label>sharing owner 3</label>
