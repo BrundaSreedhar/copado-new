@@ -1,47 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
-    <sharingOwnerRules>
-        <fullName>rule_1</fullName>
+    <sharingCriteriaRules>
+        <fullName>sharing_cri_1</fullName>
         <accessLevel>Read</accessLevel>
-        <label>rule 1</label>
-        <sharedTo>
-            <role>CEO</role>
-        </sharedTo>
-        <sharedFrom>
-            <allInternalUsers></allInternalUsers>
-        </sharedFrom>
-    </sharingOwnerRules>
-    <sharingOwnerRules>
-        <fullName>rule_3</fullName>
-        <accessLevel>Read</accessLevel>
-        <label>rule 3</label>
-        <sharedTo>
-            <roleAndSubordinates>ChannelSalesTeam</roleAndSubordinates>
-        </sharedTo>
-        <sharedFrom>
-            <allInternalUsers></allInternalUsers>
-        </sharedFrom>
-    </sharingOwnerRules>
-    <sharingOwnerRules>
-        <fullName>sharing_owner_3</fullName>
-        <accessLevel>Read</accessLevel>
-        <label>sharing owner 3</label>
+        <label>sharing cri 1</label>
         <sharedTo>
             <allInternalUsers></allInternalUsers>
         </sharedTo>
-        <sharedFrom>
-            <allInternalUsers></allInternalUsers>
-        </sharedFrom>
-    </sharingOwnerRules>
-    <sharingOwnerRules>
-        <fullName>sharing_owner_new</fullName>
-        <accessLevel>Read</accessLevel>
-        <label>sharing owner new</label>
-        <sharedTo>
-            <role>MarketingTeam</role>
-        </sharedTo>
-        <sharedFrom>
-            <allInternalUsers></allInternalUsers>
-        </sharedFrom>
-    </sharingOwnerRules>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
 </SharingRules>
