@@ -33,4 +33,15 @@
             <allInternalUsers></allInternalUsers>
         </sharedFrom>
     </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>sharing_owner_new</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>sharing owner new</label>
+        <sharedTo>
+            <role>MarketingTeam</role>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
 </SharingRules>
