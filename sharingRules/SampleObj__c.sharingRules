@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingOwnerRules>
-        <fullName>sharing_owner_rule_2</fullName>
+        <fullName>sharing_owner_3</fullName>
         <accessLevel>Read</accessLevel>
-        <label>sharing owner rule 2</label>
+        <label>sharing owner 3</label>
         <sharedTo>
             <allInternalUsers></allInternalUsers>
         </sharedTo>
