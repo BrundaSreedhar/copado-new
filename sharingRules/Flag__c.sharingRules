@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
-    <sharingOwnerRules>
-        <fullName>flag_sharing_crit</fullName>
+    <sharingCriteriaRules>
+        <fullName>flag_1_criteria</fullName>
         <accessLevel>Read</accessLevel>
-        <label>flag sharing crit</label>
+        <label>flag_1_criteria</label>
         <sharedTo>
             <allInternalUsers></allInternalUsers>
         </sharedTo>
-        <sharedFrom>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>flag_2</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>flag 2</label>
+        <sharedTo>
             <allInternalUsers></allInternalUsers>
-        </sharedFrom>
-    </sharingOwnerRules>
+        </sharedTo>
+        <criteriaItems>
+            <field>LastModifiedById</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
 </SharingRules>
