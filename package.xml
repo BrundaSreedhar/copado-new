@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>BrunTest__c.bruntestcrit</members>
         <members>BrunTest__c.sharingcrit</members>
         <members>SampleObj__c.sharing_cri_1</members>
         <members>SampleObj__c.test2</members>
