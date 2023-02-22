@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>BrunTest__c.sharingruletest</members>
-        <members>Flag__c.flag_1_owner</members>
-        <members>Flag__c.flag_sharing_crit</members>
-        <members>Lead.Lead_Sharing_Rule</members>
-        <members>SampleObj__c.rule_1</members>
-        <members>SampleObj__c.rule_3</members>
-        <members>SampleObj__c.sharing_owner_3</members>
-        <members>SampleObj__c.sharing_owner_new</members>
-        <members>SampleObj__c.test1</members>
-        <members>Well__c.owner_1</members>
-        <members>Well__c.sharing_setting</members>
-        <members>Well__c.sharingowner</members>
-        <members>Well__c.well_sharing</members>
-        <name>SharingOwnerRule</name>
+        <members>B_obj__c.brun_crit_2</members>
+        <members>B_obj__c.sharing_crit</members>
+        <members>BrunTest__c.bruntestcrit</members>
+        <members>BrunTest__c.sharingcrit</members>
+        <members>Flag__c.flag_1_criteria</members>
+        <members>Flag__c.flag_2</members>
+        <members>SampleObj__c.sharing_cri_1</members>
+        <members>SampleObj__c.test2</members>
+        <members>Well__c.criteria_1</members>
+        <members>Well__c.criteria_setting</members>
+        <members>Well__c.well_crit</members>
+        <name>SharingCriteriaRule</name>
     </types>
     <version>56.0</version>
 </Package>
