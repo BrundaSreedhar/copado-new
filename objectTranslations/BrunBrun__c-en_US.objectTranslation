@@ -8,5 +8,12 @@
         <plural>true</plural>
         <value>Bruns</value>
     </caseValues>
+    <layouts>
+        <layout>Brun(Lyt)</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
