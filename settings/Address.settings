@@ -1145,9 +1145,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Czech Republic</integrationValue>
+            <integrationValue>Czechia</integrationValue>
             <isoCode>CZ</isoCode>
-            <label>Czech Republic</label>
+            <label>Czechia</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -3653,9 +3653,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Macedonia, the former Yugoslav Republic of</integrationValue>
+            <integrationValue>North Macedonia</integrationValue>
             <isoCode>MK</isoCode>
-            <label>Macedonia, the former Yugoslav Republic of</label>
+            <label>North Macedonia</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -4503,9 +4503,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Swaziland</integrationValue>
+            <integrationValue>Eswatini</integrationValue>
             <isoCode>SZ</isoCode>
-            <label>Swaziland</label>
+            <label>Eswatini</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -4611,9 +4611,9 @@
         </countries>
         <countries>
             <active>true</active>
-            <integrationValue>Turkey</integrationValue>
+            <integrationValue>Türkiye</integrationValue>
             <isoCode>TR</isoCode>
-            <label>Turkey</label>
+            <label>Türkiye</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>
@@ -5271,6 +5271,15 @@
             <integrationValue>Samoa</integrationValue>
             <isoCode>WS</isoCode>
             <label>Samoa</label>
+            <orgDefault>false</orgDefault>
+            <standard>true</standard>
+            <visible>true</visible>
+        </countries>
+        <countries>
+            <active>true</active>
+            <integrationValue>Kosovo</integrationValue>
+            <isoCode>XK</isoCode>
+            <label>Kosovo</label>
             <orgDefault>false</orgDefault>
             <standard>true</standard>
             <visible>true</visible>

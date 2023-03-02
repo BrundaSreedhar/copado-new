@@ -135,22 +135,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>CurrentAmount</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>CurrentLifecycleEndDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>CurrentMrr</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>CurrentQuantity</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -165,9 +149,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>HasLifecycleManagement</fullName>
-    </fields>
-    <fields>
         <fullName>InstallDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -177,14 +158,6 @@
     </fields>
     <fields>
         <fullName>IsInternal</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LifecycleEndDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LifecycleStartDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -260,10 +233,6 @@
     </fields>
     <fields>
         <fullName>StockKeepingUnit</fullName>
-    </fields>
-    <fields>
-        <fullName>TotalLifecycleAmount</fullName>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>UsageEndDate</fullName>

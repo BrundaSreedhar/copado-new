@@ -3,21 +3,21 @@
     <enableCMSC2CConnections>true</enableCMSC2CConnections>
     <enableChatterFileLink>true</enableChatterFileLink>
     <enableContent>true</enableContent>
-    <enableContentAutoAssign>true</enableContentAutoAssign>
-    <enableContentDistForPortalUsers>false</enableContentDistForPortalUsers>
+    <enableContentAutoAssign>false</enableContentAutoAssign>
+    <enableContentDistForPortalUsers>true</enableContentDistForPortalUsers>
     <enableContentDistPwOptionsBit1>true</enableContentDistPwOptionsBit1>
     <enableContentDistPwOptionsBit2>true</enableContentDistPwOptionsBit2>
     <enableContentDistribution>true</enableContentDistribution>
     <enableContentSupportMultiLanguage>false</enableContentSupportMultiLanguage>
     <enableContentWorkspaceAccess>true</enableContentWorkspaceAccess>
     <enableDeleteFileInContentPacks>false</enableDeleteFileInContentPacks>
-    <enableFileShareSetByRecord>false</enableFileShareSetByRecord>
+    <enableFileShareSetByRecord>true</enableFileShareSetByRecord>
     <enableFilesUsrShareNetRestricted>false</enableFilesUsrShareNetRestricted>
     <enableJPGPreviews>false</enableJPGPreviews>
     <enableLibraryManagedFiles>false</enableLibraryManagedFiles>
     <enableSiteGuestUserToUploadFiles>false</enableSiteGuestUserToUploadFiles>
-    <enableUploadFilesOnAttachments>false</enableUploadFilesOnAttachments>
-    <setValidContentTypeForAtchDocDownload>false</setValidContentTypeForAtchDocDownload>
-    <skipContentAssetTriggers>false</skipContentAssetTriggers>
+    <enableUploadFilesOnAttachments>true</enableUploadFilesOnAttachments>
+    <setValidContentTypeForAtchDocDownload>true</setValidContentTypeForAtchDocDownload>
+    <skipContentAssetTriggers>true</skipContentAssetTriggers>
     <skipContentAssetTriggersOnDeploy>true</skipContentAssetTriggersOnDeploy>
 </ContentSettings>

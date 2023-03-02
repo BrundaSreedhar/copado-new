@@ -5,8 +5,8 @@
     <doesPreserveLeadStatus>true</doesPreserveLeadStatus>
     <doesSelectNoOpportunityOnConvertLead>false</doesSelectNoOpportunityOnConvertLead>
     <doesTrackHistory>false</doesTrackHistory>
-    <enableConversionsOnMobile>false</enableConversionsOnMobile>
-    <enableOrgWideMergeAndDelete>true</enableOrgWideMergeAndDelete>
+    <enableConversionsOnMobile>true</enableConversionsOnMobile>
+    <enableOrgWideMergeAndDelete>false</enableOrgWideMergeAndDelete>
     <shouldLeadConvertRequireValidation>true</shouldLeadConvertRequireValidation>
     <shouldSendNotificationEmailWhenLeadOwnerUpdatesViaApexInLEX>false</shouldSendNotificationEmailWhenLeadOwnerUpdatesViaApexInLEX>
 </LeadConfigSettings>

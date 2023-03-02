@@ -130,18 +130,25 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
+        <fullName>MarketSegmentId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>PromotionId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
     </fields>
-    <fields>
-        <fullName>PromotionSegmentId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
+    <listViews>
+        <fullName>All_PromotionMarketSegments</fullName>
+        <filterScope>Everything</filterScope>
+        <label>allPromotionMarketSegments</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Promotion</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MarketSegment</customTabListAdditionalFields>
         <searchResultsAdditionalFields>Promotion</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MarketSegment</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

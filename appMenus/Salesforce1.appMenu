@@ -53,7 +53,15 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
-        <name>LightningSchedulerSetupAssistant</name>
+        <name>ProductCatalog</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>ProductCategory</name>
+        <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>OnlineSalesHome</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
