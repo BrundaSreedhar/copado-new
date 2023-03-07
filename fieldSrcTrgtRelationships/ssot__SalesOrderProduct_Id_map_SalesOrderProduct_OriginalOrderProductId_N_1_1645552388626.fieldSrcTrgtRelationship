@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSrcTrgtRelationship xmlns="http://soap.sforce.com/2006/04/metadata">
+    <definitionCreationType>Standard</definitionCreationType>
+    <masterLabel>SalesOrderProduct_Id_map_SalesOrderProduct_OriginalOrderProductId_N_1_1645552388626</masterLabel>
+    <relationshipCardinality>ManyToOne</relationshipCardinality>
+    <sourceFieldName>ssot__SalesOrderProduct__dlm.ssot__OriginalOrderProductId__c</sourceFieldName>
+    <targetFieldName>ssot__SalesOrderProduct__dlm.ssot__Id__c</targetFieldName>
+</FieldSrcTrgtRelationship>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSrcTrgtRelationship xmlns="http://soap.sforce.com/2006/04/metadata">
+    <definitionCreationType>Standard</definitionCreationType>
+    <masterLabel>DeviceApplicationEngagement_EngagementChannelTypeId_map_EngagementChannelType_Id_N_1_1645552390062</masterLabel>
+    <relationshipCardinality>ManyToOne</relationshipCardinality>
+    <sourceFieldName>ssot__DeviceApplicationEngagement__dlm.ssot__EngagementChannelTypeId__c</sourceFieldName>
+    <targetFieldName>ssot__EngagementChannelType__dlm.ssot__Id__c</targetFieldName>
+</FieldSrcTrgtRelationship>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataSource>test_gcp_2394cdf8_4d5b_4df3_aaed_791b83af6d0e</dataSource>
+    <externalRecordIdentifier>test_gcp_runner_profiles_BAEA8DB6</externalRecordIdentifier>
+    <masterLabel>test_gcp_runner_profiles_BAEA8DB6</masterLabel>
+</DataSourceObject>

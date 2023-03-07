@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>test_gcp_2394cdf8_4d5b_4df3_aaed_791b83af6d0e</masterLabel>
+    <prefix>tes</prefix>
+</DataSource>

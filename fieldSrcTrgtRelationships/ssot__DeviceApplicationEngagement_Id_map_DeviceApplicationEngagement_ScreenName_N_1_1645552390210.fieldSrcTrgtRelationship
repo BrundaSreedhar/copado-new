@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSrcTrgtRelationship xmlns="http://soap.sforce.com/2006/04/metadata">
+    <definitionCreationType>Standard</definitionCreationType>
+    <masterLabel>DeviceApplicationEngagement_Id_map_DeviceApplicationEngagement_ScreenName_N_1_1645552390210</masterLabel>
+    <relationshipCardinality>ManyToOne</relationshipCardinality>
+    <sourceFieldName>ssot__DeviceApplicationEngagement__dlm.ssot__ScreenName__c</sourceFieldName>
+    <targetFieldName>ssot__DeviceApplicationEngagement__dlm.ssot__Id__c</targetFieldName>
+</FieldSrcTrgtRelationship>
