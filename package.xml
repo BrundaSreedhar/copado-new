@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ob__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>ob__c-de</members>
-        <members>ob__c-en_US</members>
-        <name>CustomObjectTranslation</name>
-    </types>
-    <types>
-        <members>ob__c-demo</members>
-        <members>ob__c-ob Layout</members>
-        <members>ob__c-ob1</members>
-        <members>ob__c-ob2 %28test%29</members>
-        <name>Layout</name>
+        <members>B_obj__c.brun_crit_2</members>
+        <members>B_obj__c.sharing_crit</members>
+        <members>BrunTest__c.bruntestcrit</members>
+        <members>BrunTest__c.sharingcrit</members>
+        <members>Flag__c.flag_1_criteria</members>
+        <members>Flag__c.flag_2</members>
+        <members>SampleObj__c.sharing_cri_1</members>
+        <members>SampleObj__c.test2</members>
+        <members>Well__c.criteria_1</members>
+        <members>Well__c.criteria_setting</members>
+        <members>Well__c.well_crit</members>
+        <name>SharingCriteriaRule</name>
     </types>
     <version>57.0</version>
 </Package>
