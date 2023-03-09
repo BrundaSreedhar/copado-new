@@ -142,6 +142,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.CustomField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.CustomerPriority__c</field>
         <readable>false</readable>
@@ -3901,6 +3906,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>cool__c-cool Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ob__c-ob Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>testchanges__c-testchange Layout</layout>
