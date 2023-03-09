@@ -153,28 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>custom_email__c</fullName>
-        <externalId>false</externalId>
-        <label>custom email</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>custom_field__c</fullName>
-        <externalId>false</externalId>
-        <label>custom field</label>
-        <trackTrending>false</trackTrending>
-        <type>AutoNumber</type>
-    </fields>
-    <label>my custom obj</label>
+    <label>newobj</label>
     <nameField>
-        <label>my custom obj Name</label>
+        <label>newobj Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>objs</pluralLabel>
+    <pluralLabel>newobjs</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
