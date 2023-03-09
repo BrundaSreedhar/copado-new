@@ -43,6 +43,10 @@
                 <behavior>Edit</behavior>
                 <field>CustomField__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>CustomField2__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
