@@ -541,6 +541,12 @@
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>custom_number__c</fullName>
+        <externalId>false</externalId>
+        <label>custom number</label>
+        <type>AutoNumber</type>
+    </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
         <filterScope>Everything</filterScope>
