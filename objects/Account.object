@@ -294,6 +294,24 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Custom_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Custom_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Time</type>
+    </fields>
+    <fields>
         <fullName>CustomerPriority__c</fullName>
         <externalId>false</externalId>
         <label>Customer Priority</label>
@@ -563,6 +581,16 @@
         <filterScope>Everything</filterScope>
         <label>Platinum and Gold SLA Customers</label>
     </listViews>
+    <profileSearchLayouts>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>ACCOUNT.SITE</fields>
+        <fields>ACCOUNT.PHONE1</fields>
+        <fields>CORE.USERS.ALIAS</fields>
+        <fields>ACCOUNT.ADDRESS2_STREET</fields>
+        <fields>ACCOUNT.ADDRESS2_CITY</fields>
+        <fields>ACCOUNT.ACCOUNT_NUMBER</fields>
+        <profileName>Analytics Cloud Security User</profileName>
+    </profileSearchLayouts>
     <profileSearchLayouts>
         <fields>ACCOUNT.NAME</fields>
         <fields>ACCOUNT.SITE</fields>
