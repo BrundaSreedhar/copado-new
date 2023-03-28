@@ -2,7 +2,7 @@
 <DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
     <folderShares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo>brunda-dev08@copado.dev</sharedTo>
+        <sharedTo>{!Environment.User}</sharedTo>
         <sharedToType>User</sharedToType>
     </folderShares>
     <name>Technical Support</name>

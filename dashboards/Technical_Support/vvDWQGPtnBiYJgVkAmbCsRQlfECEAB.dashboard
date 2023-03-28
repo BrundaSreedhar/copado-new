@@ -13,7 +13,7 @@
     </dashboardGridLayout>
     <dashboardType>SpecifiedUser</dashboardType>
     <isGridLayout>true</isGridLayout>
-    <runningUser>brunda-dev08@copado.dev</runningUser>
+    <runningUser>{!Environment.User}</runningUser>
     <textColor>#000000</textColor>
     <title>Activity Performance Dashboards</title>
     <titleColor>#000000</titleColor>
