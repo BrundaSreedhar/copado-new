@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>brun_template</members>
-        <members>brun_template/brun_email_template</members>
+        <members>new_folder</members>
+        <members>new_folder/test_fix_folder</members>
+        <members>new_folder/test_fix_folder/qweIvZvpycrIthVHRYPaYxDXgXooBw</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>test_fix_folder</members>
+        <members>test_fix_folder/test_template</members>
         <name>EmailTemplate</name>
     </types>
     <version>57.0</version>
