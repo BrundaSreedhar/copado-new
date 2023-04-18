@@ -26,4 +26,9 @@
         <default>false</default>
         <label>Invoicing</label>
     </standardValue>
+    <standardValue>
+        <fullName>注文実行</fullName>
+        <default>false</default>
+        <label>注文実行</label>
+    </standardValue>
 </StandardValueSet>
