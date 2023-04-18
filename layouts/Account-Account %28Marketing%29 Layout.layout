@@ -43,6 +43,10 @@
                 <behavior>Edit</behavior>
                 <field>Custom_Amount__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>custom_number__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
