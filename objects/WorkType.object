@@ -130,6 +130,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>ApptStartTimeIntvlInMin</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>BlockTimeAfterAppointment</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -191,6 +195,13 @@
     <fields>
         <fullName>TimeframeStart</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>work_type_number__c</fullName>
+        <externalId>false</externalId>
+        <label>work type number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
     </fields>
     <listViews>
         <fullName>All_WorkTypes</fullName>
