@@ -3,49 +3,64 @@
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>false</plural>
-        <value></value>
+        <value><!-- ob --></value>
     </caseValues>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>true</plural>
-        <value></value>
+        <value><!-- ob --></value>
     </caseValues>
     <caseValues>
         <caseType>Accusative</caseType>
         <plural>false</plural>
-        <value></value>
+        <value><!-- ob --></value>
     </caseValues>
     <caseValues>
         <caseType>Accusative</caseType>
         <plural>true</plural>
-        <value></value>
+        <value><!-- ob --></value>
     </caseValues>
     <caseValues>
         <caseType>Genitive</caseType>
         <plural>false</plural>
-        <value></value>
+        <value><!-- ob --></value>
     </caseValues>
     <caseValues>
         <caseType>Genitive</caseType>
         <plural>true</plural>
-        <value></value>
+        <value><!-- ob --></value>
     </caseValues>
     <caseValues>
         <caseType>Dative</caseType>
         <plural>false</plural>
-        <value></value>
+        <value><!-- ob --></value>
     </caseValues>
     <caseValues>
         <caseType>Dative</caseType>
         <plural>true</plural>
-        <value></value>
+        <value><!-- ob --></value>
     </caseValues>
+    
     <layouts>
-        <layout>Brun(Lyt)</layout>
+        <layout>demo</layout>
         <sections>
-            <label>one translation</label>
+            <label>demo</label>
             <section>Custom Links</section>
         </sections>
     </layouts>
-    <nameFieldLabel></nameFieldLabel>
+    <layouts>
+        <layout>ob1</layout>
+        <sections>
+            <label>one</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ob2 (test)</layout>
+        <sections>
+            <label>two</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- ob Name --></nameFieldLabel>
 </CustomObjectTranslation>
