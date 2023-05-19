@@ -192,6 +192,13 @@
         <fullName>TimeframeStart</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>work_type_number__c</fullName>
+        <externalId>false</externalId>
+        <label>work type number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
     <listViews>
         <fullName>All_WorkTypes</fullName>
         <filterScope>Everything</filterScope>
