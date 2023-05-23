@@ -131,6 +131,8 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>ApptStartTimeIntvlInMin</fullName>
+        <businessOwnerUser>brunda-dev2@copado.com</businessOwnerUser>
+        <complianceGroup>PII</complianceGroup>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -179,6 +181,13 @@
         <fullName>OwnerId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TestField__c</fullName>
+        <externalId>false</externalId>
+        <label>TestField</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
     </fields>
     <fields>
         <fullName>TimeFrameEndUnit</fullName>
