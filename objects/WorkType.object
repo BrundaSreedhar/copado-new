@@ -177,6 +177,13 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>TestField__c</fullName>
+        <externalId>false</externalId>
+        <label>TestField</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>TimeFrameEndUnit</fullName>
         <trackHistory>false</trackHistory>
     </fields>
