@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>WorkType.work_type_number__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>WorkType</members>
+        <members>customobj__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>WorkType-Work Type Layout</members>
-        <name>Layout</name>
+        <members>Order.testrecordtype</members>
+        <members>customobj__c.testgroup</members>
+        <name>RecordType</name>
     </types>
     <version>57.0</version>
 </Package>
