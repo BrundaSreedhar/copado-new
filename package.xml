@@ -4,5 +4,9 @@
         <members>Case.Role__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Case.DemoRecordType</members>
+        <name>RecordType</name>
+    </types>
     <version>57.0</version>
 </Package>

@@ -650,6 +650,21 @@
         <businessProcess>DemoProcess</businessProcess>
         <label>DemoRecordType</label>
         <picklistValues>
+            <picklist>Role__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>NewPicklist__c</picklist>
             <values>
                 <fullName>1</fullName>
