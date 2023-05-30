@@ -153,17 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>customobj</label>
+    <label>recordtest</label>
     <nameField>
-        <label>customobj Name</label>
+        <label>recordtests Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>customobjs</pluralLabel>
-    <recordTypes>
-        <fullName>testgroup</fullName>
-        <active>true</active>
-        <label>testgroup</label>
-    </recordTypes>
+    <pluralLabel>recordtests</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
