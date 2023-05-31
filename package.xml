@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.DemoProcess</members>
-        <name>BusinessProcess</name>
+        <members>Case.NewPicklist__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>Case.Role__c</members>
-        <name>CustomField</name>
+        <members>Case.DemoRecordType</members>
+        <name>RecordType</name>
     </types>
     <version>57.0</version>
 </Package>
