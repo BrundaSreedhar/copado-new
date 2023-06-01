@@ -351,11 +351,6 @@
                     <label>3</label>
                 </value>
                 <value>
-                    <fullName>5</fullName>
-                    <default>false</default>
-                    <label>5</label>
-                </value>
-                <value>
                     <fullName>6</fullName>
                     <default>false</default>
                     <label>6</label>
@@ -369,6 +364,11 @@
                     <fullName>8</fullName>
                     <default>false</default>
                     <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -620,6 +620,37 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>xyz__c</fullName>
+        <externalId>false</externalId>
+        <label>xyz</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>
         <columns>CASES.CASE_NUMBER</columns>
@@ -684,11 +715,11 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>5</fullName>
+                <fullName>6</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>6</fullName>
+                <fullName>9</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -849,6 +880,21 @@
             </values>
             <values>
                 <fullName>Structural</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>xyz__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
