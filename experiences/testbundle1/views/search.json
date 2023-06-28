@@ -1,0 +1,48 @@
+{
+  "appPageId" : "def86186-91b3-4fe4-959d-4898c815ae9e",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "e4aceb1e-1856-4c49-b78a-263c21c30a87",
+  "label" : "Search",
+  "regions" : [ {
+    "id" : "a35130e1-3321-48b4-9edc-35c63d58facb",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "scopes" : [ {
+          "isPublic" : false,
+          "name" : "Lead"
+        }, {
+          "isPublic" : false,
+          "name" : "Opportunity"
+        }, {
+          "isPublic" : false,
+          "name" : "Campaign"
+        }, {
+          "isPublic" : false,
+          "name" : "ContentDocument"
+        } ],
+        "searchResultFiltering" : true,
+        "searchTerm" : "{!term}",
+        "showTopResults" : true
+      },
+      "componentName" : "forceCommunity:search",
+      "id" : "65f4b56c-3a20-44c6-bed6-b6c012abcb7d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ef3138d7-a531-498a-8016-b501f3e080d4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "006e4857-5a26-422f-840e-3d0b25d5ab00",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "global-search"
+}
