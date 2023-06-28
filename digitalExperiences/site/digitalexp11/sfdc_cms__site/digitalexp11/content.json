@@ -1,0 +1,7 @@
+{
+  "type" : "sfdc_cms__site",
+  "title" : "digitalexp1",
+  "contentBody" : {
+    "authenticationType" : "AUTHENTICATED"
+  }
+}
