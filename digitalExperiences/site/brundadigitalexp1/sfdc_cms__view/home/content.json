@@ -8,6 +8,7 @@
           "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
             "sectionConfig" : "{\"UUID\":\"ba025e83-4c2a-4774-91f0-6e0fe56d55df\",\"columns\":[{\"UUID\":\"e3a8162d-2f0b-41a5-89e9-c18f6a2b5a00\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
           },
           "children" : [ {
@@ -29,6 +30,7 @@
                 "contentPadding" : "large",
                 "contentPosition" : "center left",
                 "contentWidth" : 25,
+                "dxpStyle" : { },
                 "height" : 450,
                 "imageFit" : "cover",
                 "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Site.basePath}/assets/img/marketing-banner-1.png\",\"altText\":\"pulse\",\"contentKey\":\"\"}}",
@@ -44,6 +46,7 @@
                 "children" : [ {
                   "attributes" : {
                     "backgroundColor" : "rgba(255, 255, 255, 0)",
+                    "dxpStyle" : { },
                     "paddingHorizontal" : "none",
                     "paddingVertical" : "none",
                     "text" : "Revolutionizing Health & Wellness",
@@ -64,6 +67,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Learn More",
@@ -81,6 +85,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Contact Us",
@@ -96,7 +101,9 @@
                 "type" : "region"
               }, {
                 "children" : [ {
-                  "attributes" : { },
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
                   "definition" : "dxp_page_layout:placeHolder",
                   "id" : "3fa23ce2-3427-49fc-b287-2e8ceed80494",
                   "type" : "component"
@@ -112,6 +119,7 @@
             }, {
               "attributes" : {
                 "backgroundColor" : "",
+                "dxpStyle" : { },
                 "paddingHorizontal" : "x-large",
                 "paddingVertical" : "none",
                 "text" : "Healthx is a leading provider of health and wellness products and technology. Onsectetur adipiscing elit. Vivamus viverra ex purus, vel tempus lectus imperdiet et. Nam sed lorem semper erat venenatis lobortis id dapibus dui. ",
@@ -135,12 +143,14 @@
           "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
             "sectionConfig" : "{\"UUID\":\"74c950ab-ec7b-41fd-91df-898a4cb5cf30\",\"columns\":[{\"UUID\":\"7b22ce1d-08f7-4da1-90ac-5d18c6214fce\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"4\",\"seedComponents\":null},{\"UUID\":\"9926d1d5-79cf-41a3-8405-97e48c8a5323\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"4\",\"seedComponents\":null},{\"UUID\":\"079e8206-6f08-4c86-95f1-56bafc524454\",\"columnName\":\"Column 3\",\"columnKey\":\"col3\",\"columnWidth\":\"4\",\"seedComponents\":null}]}"
           },
           "children" : [ {
             "children" : [ {
               "attributes" : {
                 "backgroundColor" : "",
+                "dxpStyle" : { },
                 "paddingHorizontal" : "large",
                 "paddingVertical" : "large",
                 "text" : "TESTIMONIAL",
@@ -155,6 +165,7 @@
             }, {
               "attributes" : {
                 "backgroundColor" : "",
+                "dxpStyle" : { },
                 "paddingHorizontal" : "large",
                 "paddingVertical" : "none",
                 "text" : "Decade after decade we’ve produced results for our clients. Here’s what they have to say about us.",
@@ -168,6 +179,7 @@
             }, {
               "attributes" : {
                 "alignment" : "left",
+                "dxpStyle" : { },
                 "fit" : "contain",
                 "height" : 350,
                 "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Site.basePath}/assets/img/marketing-image-4.png\",\"altText\":\"pulse\",\"contentKey\":\"\"}}",
@@ -196,6 +208,7 @@
                 "buttonGroupSpacingHorizontal" : "space-evenly",
                 "buttonGroupSpacingVertical" : "space-evenly",
                 "buttonGroupWidth" : 75,
+                "dxpStyle" : { },
                 "height" : 325,
                 "imageFit" : "contain",
                 "imageHeight" : 33,
@@ -217,6 +230,7 @@
                 "children" : [ {
                   "attributes" : {
                     "backgroundColor" : "",
+                    "dxpStyle" : { },
                     "paddingHorizontal" : "x-large",
                     "paddingVertical" : "none",
                     "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -236,6 +250,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Learn More",
@@ -253,6 +268,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Contact Us",
@@ -268,7 +284,9 @@
                 "type" : "region"
               }, {
                 "children" : [ {
-                  "attributes" : { },
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
                   "definition" : "dxp_page_layout:placeHolder",
                   "id" : "4e7035fc-ed47-4a41-9a06-3f49f025b661",
                   "type" : "component"
@@ -299,6 +317,7 @@
                 "buttonGroupSpacingHorizontal" : "space-evenly",
                 "buttonGroupSpacingVertical" : "space-evenly",
                 "buttonGroupWidth" : 75,
+                "dxpStyle" : { },
                 "height" : 325,
                 "imageFit" : "contain",
                 "imageHeight" : 33,
@@ -320,6 +339,7 @@
                 "children" : [ {
                   "attributes" : {
                     "backgroundColor" : "",
+                    "dxpStyle" : { },
                     "paddingHorizontal" : "x-large",
                     "paddingVertical" : "none",
                     "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -339,6 +359,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Learn More",
@@ -356,6 +377,7 @@
                 "children" : [ {
                   "attributes" : {
                     "alignment" : "center",
+                    "dxpStyle" : { },
                     "size" : "standard",
                     "stretch" : "standard",
                     "text" : "Contact Us",
@@ -371,7 +393,9 @@
                 "type" : "region"
               }, {
                 "children" : [ {
-                  "attributes" : { },
+                  "attributes" : {
+                    "dxpStyle" : { }
+                  },
                   "definition" : "dxp_page_layout:placeHolder",
                   "id" : "a0fb60a8-53cf-4156-bf54-93290a49b5c2",
                   "type" : "component"
@@ -397,12 +421,14 @@
           "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
             "sectionConfig" : "{\"UUID\":\"e8fd7e8b-a422-46b9-9d6e-308748c84735\",\"columns\":[{\"UUID\":\"c62cdb73-12ce-4e47-bc4a-0dbdc9f7caf3\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"6\",\"seedComponents\":null},{\"UUID\":\"fcedda17-ec26-4e38-8a4c-f589cb983930\",\"columnName\":\"Column 2\",\"columnKey\":\"col2\",\"columnWidth\":\"6\",\"seedComponents\":null}]}"
           },
           "children" : [ {
             "children" : [ {
               "attributes" : {
                 "alignment" : "center",
+                "dxpStyle" : { },
                 "fit" : "contain",
                 "height" : 350,
                 "imageInfo" : "{\"imageInfoV1\":{\"url\":\"{!Site.basePath}/assets/img/marketing-image-3.png\",\"altText\":\"chart\",\"contentKey\":\"\"}}",
@@ -422,6 +448,7 @@
             "children" : [ {
               "attributes" : {
                 "backgroundColor" : "",
+                "dxpStyle" : { },
                 "paddingHorizontal" : "large",
                 "paddingVertical" : "none",
                 "text" : "Stay in the Loop",
@@ -435,6 +462,7 @@
             }, {
               "attributes" : {
                 "backgroundColor" : "",
+                "dxpStyle" : { },
                 "paddingHorizontal" : "large",
                 "paddingVertical" : "none",
                 "text" : "Keep up with our latest developments and stay up to date with how we are revolutionizing health and wellness.",
@@ -468,6 +496,7 @@
                 "customFieldTwoLabel" : "Custom Field Label",
                 "customFieldTwoPlaceholder" : "Custom Field Placeholder",
                 "defaultCompanyValue" : "Company Not Available",
+                "dxpStyle" : { },
                 "emailFieldConfig" : "{\"fieldInputType\":\"Email\",\"isFieldInputTypeEditable\":false,\"fieldMaxLength\":null,\"fieldApiName\":\"Email\"}",
                 "emailLabel" : "Email",
                 "emailPlaceholder" : "Enter your email address",
@@ -530,6 +559,7 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
+            "dxpStyle" : { },
             "pageTitle" : "Home",
             "recordId" : "{!recordId}"
           },
@@ -546,6 +576,7 @@
       "id" : "dd102e42-d3ff-4f76-bff5-ec158e0db64f",
       "type" : "component"
     },
+    "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "home"
   }
