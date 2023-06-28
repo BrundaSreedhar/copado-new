@@ -8,6 +8,7 @@
           "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
             "sectionConfig" : "{\"UUID\":\"df3a0ccd-bac0-4e63-932a-caaeff2c8af7\",\"columns\":[{\"UUID\":\"b9e753c3-fc43-4389-bd29-b883fb13867a\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
           },
           "children" : [ {
@@ -29,6 +30,7 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
+            "dxpStyle" : { },
             "pageTitle" : "{!Content.contentTypeLabel}.{!Content.title}",
             "recordId" : "{!recordId}"
           },
@@ -45,6 +47,7 @@
       "id" : "32dfda30-24cb-4431-9ecb-ff24262bdbc0",
       "type" : "component"
     },
+    "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "managed-content-sfdc_cms__news"
   }
