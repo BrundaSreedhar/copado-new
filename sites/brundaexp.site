@@ -23,8 +23,8 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>brunda-dev2@copado.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>brunda-dev2@copado.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>{!Environment.siteAdmin}</siteAdmin>
+    <siteGuestRecordDefaultOwner>{!Environment.siteAdmin}</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <urlPathPrefix>brundaexpvforcesite</urlPathPrefix>
 </CustomSite>
