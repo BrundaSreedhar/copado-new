@@ -8,16 +8,20 @@
           "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "dxpStyle" : { },
             "sectionConfig" : "{\"UUID\":\"967ee1b4-ab17-4bab-8aeb-7c0e5be9588f\",\"columns\":[{\"UUID\":\"2c0b9cc5-45cd-474d-9164-64df50a4c8f6\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : { },
+              "attributes" : {
+                "dxpStyle" : { }
+              },
               "definition" : "community_login:communityLogo",
               "id" : "9fd1bfd3-79a0-4665-92e2-cddd68fcd50f",
               "type" : "component"
             }, {
               "attributes" : {
+                "dxpStyle" : { },
                 "forgotPasswordLabel" : "Forgot your password?",
                 "forgotPasswordUrl" : "/ForgotPassword",
                 "loginButtonLabel" : "Log In",
@@ -32,6 +36,7 @@
               "type" : "component"
             }, {
               "attributes" : {
+                "dxpStyle" : { },
                 "showHeader" : false,
                 "socialLoginHeader" : "Or log in using:",
                 "useCommunityDomainSso" : true
@@ -41,6 +46,7 @@
               "type" : "component"
             }, {
               "attributes" : {
+                "dxpStyle" : { },
                 "employeeLoginLinkLabel" : "Are you an employee? Log in"
               },
               "definition" : "community_login:employeeLoginLink",
@@ -65,6 +71,7 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
+            "dxpStyle" : { },
             "pageTitle" : "Login",
             "recordId" : "{!recordId}"
           },
@@ -81,6 +88,7 @@
       "id" : "0e1249c7-9c7c-4b07-ae00-657578a2c2fb",
       "type" : "component"
     },
+    "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "login-main"
   }
