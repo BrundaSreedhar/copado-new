@@ -9,12 +9,17 @@
           "attributes" : {
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
-            "sectionConfig" : "{\"UUID\":\"a44ac41e-7f73-4031-95e1-d47698f3e163\",\"columns\":[{\"UUID\":\"3d767677-fdfb-41d7-90b9-7e576cc243c0\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+            "sectionConfig" : "{\"UUID\":\"a44ac41e-7f73-4031-95e1-d47698f3e163\",\"columns\":[{\"UUID\":\"3d767677-fdfb-41d7-90b9-7e576cc243c0\",\"columnName\":\"Theme Header\",\"columnKey\":\"headerSection\",\"columnWidth\":\"6\",\"seedComponents\":null},{\"UUID\":\"30f12532-6bf5-4b53-bd5e-de70253da9d7\",\"columnName\":\"Column 2\",\"columnKey\":\"b04e5\",\"columnWidth\":\"6\",\"seedComponents\":[]}]}"
           },
           "children" : [ {
             "id" : "3d767677-fdfb-41d7-90b9-7e576cc243c0",
             "name" : "headerSection",
-            "title" : "Theme Header",
+            "title" : "Column 1",
+            "type" : "region"
+          }, {
+            "id" : "30f12532-6bf5-4b53-bd5e-de70253da9d7",
+            "name" : "b04e5",
+            "title" : "Column 2",
             "type" : "region"
           } ],
           "definition" : "community_layout:section",
