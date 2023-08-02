@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>test2__c</members>
-        <name>CustomObject</name>
+        <members>site/brundaexp1.sfdc_cms__route/Error</members>
+        <name>DigitalExperience</name>
     </types>
     <version>58.0</version>
 </Package>
