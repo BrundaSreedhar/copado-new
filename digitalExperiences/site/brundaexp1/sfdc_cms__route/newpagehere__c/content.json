@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "newpagehere",
+  "contentBody" : {
+    "activeViewId" : "newpagehere",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-newpagehere",
+    "urlPrefix" : "newpagehere"
+  }
+}
