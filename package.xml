@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>site/brundaexp1.sfdc_cms__route/newpagehere__c</members>
-        <name>DigitalExperience</name>
+        <members>digitalexp1</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>site/digitalexp11</members>
+        <name>DigitalExperienceBundle</name>
+    </types>
+    <types>
+        <members>digitalexp11</members>
+        <name>DigitalExperienceConfig</name>
+    </types>
+    <types>
+        <members>digitalexp1</members>
+        <name>Network</name>
     </types>
     <version>58.0</version>
 </Package>
