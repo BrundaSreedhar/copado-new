@@ -1,50 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>TestAshok</members>
+        <members>TestAK</members>
         <name>CustomSite</name>
     </types>
     <types>
-        <members>TestAshok1</members>
-        <name>ExperienceBundle</name>
+        <members>site/TestAK1</members>
+        <name>DigitalExperienceBundle</name>
     </types>
     <types>
-        <members>TestAshok.Banned</members>
-        <name>KeywordList</name>
+        <members>TestAK1</members>
+        <name>DigitalExperienceConfig</name>
     </types>
     <types>
-        <members>TestAshok</members>
-        <name>ManagedTopics</name>
-    </types>
-    <types>
-        <members>TestAshok.Block_banned_keywords</members>
-        <members>TestAshok.Flag_banned</members>
-        <members>TestAshok.Freeze_for_frequent_posting</members>
-        <members>TestAshok.Replace_banned</members>
-        <members>TestAshok.Review_the_first_post</members>
-        <name>ModerationRule</name>
-    </types>
-    <types>
-        <members>SFDC_Default_Navigation_TestAshok</members>
-        <name>NavigationMenu</name>
-    </types>
-    <types>
-        <members>TestAshok</members>
+        <members>TestAK</members>
         <name>Network</name>
-    </types>
-    <types>
-        <members>cbTestAshok</members>
-        <name>NetworkBranding</name>
-    </types>
-    <types>
-        <members>TestAshok1</members>
-        <name>SiteDotCom</name>
-    </types>
-    <types>
-        <members>TestAshok.Customer_Members</members>
-        <members>TestAshok.Members_without_contribution</members>
-        <members>TestAshok.Partner_and_Customer_members</members>
-        <name>UserCriteria</name>
     </types>
     <version>58.0</version>
 </Package>
