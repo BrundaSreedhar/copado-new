@@ -902,11 +902,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.ClosedOnCreate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Case.ContactId</field>
         <readable>true</readable>
@@ -990,11 +985,6 @@
         <editable>true</editable>
         <field>Case.Reason</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.Role__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1104,16 +1094,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ChangeRequest.FinalReviewNotes</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.RelatedIssueAutonumberMaster</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.RelatedItemAutonumberMaster</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1399,11 +1379,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ContactPointAddress.UsageType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ContactPointConsent.ContactPointTypeConsentId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1783,21 +1758,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>DataUsePurpose.IsMaintainablePerContactPoint</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>DataUsePurpose.IsMaintainablePerParty</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>DataUsePurpose.IsMaintainablePerType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>DataUsePurpose.LegalBasisId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1923,11 +1883,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Idea.Attachment</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Idea.Status</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1989,11 +1944,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Incident.PriorityOverrideReason</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.RelatedItemAutonumberMaster</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2403,11 +2353,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>MessagingEndUser.IsOptedOut</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>MessagingEndUser.LeadId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2778,11 +2723,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Problem.RelatedItemAutonumberMaster</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Problem.ResolutionDateTime</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2934,16 +2874,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Promotion.TermsAndConditions</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PromotionQualifier.ExternalQualifier</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>PromotionTarget.ExternalTarget</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3942,11 +3872,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>WorkType.TestField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>WorkType.TimeFrameEndUnit</field>
         <readable>true</readable>
@@ -3973,22 +3898,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>WorkType.worktypetextarea__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>WorkTypeGroup.AdditionalInformation</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>WorkTypeGroup.IsActive</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>azobj__c.aztext__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
@@ -4203,10 +4118,6 @@
         <layout>Order-Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Order-Order Layout</layout>
-        <recordType>Order.testrecordtype</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>OrderItem-Order Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4399,56 +4310,10 @@
         <layout>azobj__c-azobj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>brun1__c-brun1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>brun2__c-brun2 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>brun3__c-brun3 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>customobj__c-customobj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>customobj__c-customobj Layout</layout>
-        <recordType>customobj__c.testgroup</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>kompalRO1__c-kompalRO1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>obj1__c-obj1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>obj2__c-obj2 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>obj3__c-obj3 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>obj4__c-obj4 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>obj5__c-obj5 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>obj6__c-obj6 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>obj7__c-obj7 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>recordtests__c-recordtest Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>test1__c-test1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>test2__c-test2 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>test3__c-test3 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <object>AIPredictionEvent</object>
@@ -5267,52 +5132,10 @@
         <object>azobj__c</object>
     </objectPermissions>
     <objectPermissions>
-        <object>brun1__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>brun2__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>brun3__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>customobj__c</object>
-    </objectPermissions>
-    <objectPermissions>
         <object>kompalRO1__c</object>
     </objectPermissions>
     <objectPermissions>
-        <object>obj1__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>obj2__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>obj3__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>obj4__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>obj5__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>obj6__c</object>
-    </objectPermissions>
-    <objectPermissions>
         <object>obj7__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>recordtests__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>test1__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>test2__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>test3__c</object>
     </objectPermissions>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
@@ -5439,30 +5262,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>p1</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>p2</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>p3</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>page1</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>page2</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>page3</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>testvf</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
@@ -5478,21 +5277,6 @@
         <default>false</default>
         <recordType>Case.DemoRecordType</recordType>
         <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>true</default>
-        <recordType>Order.testrecordtype</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>true</default>
-        <recordType>customobj__c.testgroup</recordType>
-        <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Student__c</tab>
@@ -5681,10 +5465,6 @@
     <tabVisibilities>
         <tab>standard-DataUsePurpose</tab>
         <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DelegatedAccount</tab>
-        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DeleteEvent</tab>
@@ -5920,10 +5700,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ProfilePlatformOverview</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-Promotion</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
