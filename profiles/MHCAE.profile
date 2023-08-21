@@ -947,11 +947,6 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.NewPicklist__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Origin</field>
         <readable>true</readable>
@@ -1045,11 +1040,6 @@
         <editable>true</editable>
         <field>Case.Type</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Case.xyz__c</field>
-        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3892,11 +3882,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>WorkType.work_type_number__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>WorkTypeGroup.AdditionalInformation</field>
         <readable>true</readable>
@@ -3980,10 +3965,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Case-Case Layout</layout>
-        <recordType>Case.DemoRecordType</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseClose-Close Case Layout</layout>
@@ -4235,9 +4216,6 @@
         <layout>Solution-Solution Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Student__c-Student Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4305,15 +4283,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>azobj__c-azobj Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>kompalRO1__c-kompalRO1 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>obj7__c-obj7 Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <object>AIPredictionEvent</object>
@@ -5042,9 +5011,6 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <object>Student__c</object>
-    </objectPermissions>
-    <objectPermissions>
         <object>Task</object>
     </objectPermissions>
     <objectPermissions>
@@ -5127,15 +5093,6 @@
     </objectPermissions>
     <objectPermissions>
         <object>WorkTypeGroup</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>azobj__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>kompalRO1__c</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>obj7__c</object>
     </objectPermissions>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
@@ -5230,38 +5187,6 @@
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>azurepage</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>azurepage2</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>azurevfpage2</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>brun_vf</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>githubpage</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>githubpage2</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>gitpage3</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
-        <apexPage>gitvf</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <pageAccesses>
         <apexPage>testvf</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
@@ -5269,19 +5194,6 @@
         <apexPage>vfpage</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
-    <pageAccesses>
-        <apexPage>vfpagetest</apexPage>
-        <enabled>false</enabled>
-    </pageAccesses>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>Case.DemoRecordType</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <tabVisibilities>
-        <tab>Student__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>
