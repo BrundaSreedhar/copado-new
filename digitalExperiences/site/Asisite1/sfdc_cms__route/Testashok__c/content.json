@@ -1,0 +1,11 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Testashok",
+  "contentBody" : {
+    "activeViewId" : "Testashok",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-testashok",
+    "urlPrefix" : "testashok"
+  }
+}

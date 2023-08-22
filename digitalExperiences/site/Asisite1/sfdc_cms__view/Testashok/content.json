@@ -1,0 +1,52 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Testashok",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"ceca49f6-8f0f-44fe-b8f3-99c972d650b0\",\"columns\":[{\"UUID\":\"365abded-d27f-4a85-a77b-681076920221\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+          },
+          "children" : [ {
+            "id" : "365abded-d27f-4a85-a77b-681076920221",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "ceca49f6-8f0f-44fe-b8f3-99c972d650b0",
+          "type" : "component"
+        } ],
+        "id" : "a9a37be5-406d-43aa-8ff8-fc5439eac0cb",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Testashok",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "daff792d-b4a6-4a2f-807b-99b043179744",
+          "type" : "component"
+        } ],
+        "id" : "ec99251d-ce9d-4337-8409-0bff2b42fbe7",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "1e28ed47-5418-4363-8ac1-2367dcfc05a9",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-testashok"
+  }
+}
