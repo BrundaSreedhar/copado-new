@@ -128,55 +128,42 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>ActiveFromDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ActiveToDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Address</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>AddressType</fullName>
+        <fullName>Activity</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>BestTimeToContactEndTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>BestTimeToContactStartTime</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>BestTimeToContactTimezone</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ContactPointPhoneId</fullName>
+        <fullName>AllocationId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>IsDefault</fullName>
+        <fullName>Amount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>IsPrimary</fullName>
+        <fullName>BudgetId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ChannelPartnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>IsThirdPartyAddress</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
+        <fullName>DesiredOutcome</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -185,35 +172,74 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ParentId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>MasterDetail</type>
-    </fields>
-    <fields>
-        <fullName>PreferenceRank</fullName>
+        <fullName>RequestedAmount</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>UsageType</fullName>
+        <fullName>Status</fullName>
         <trackHistory>false</trackHistory>
-        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalApprovedFcs</fullName>
+    </fields>
+    <fields>
+        <fullName>TotalReimbursedFcs</fullName>
     </fields>
     <listViews>
-        <fullName>All_ContactPointAddresses</fullName>
+        <fullName>All_Partner_Fund_Requests</fullName>
         <filterScope>Everything</filterScope>
-        <label>All Contact Point Addresses</label>
+        <label>All Partner Fund Requests</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Partner_Fund_Requests</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Partner Fund Requests</label>
     </listViews>
     <searchLayouts>
-        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ActiveToDate</customTabListAdditionalFields>
-        <customTabListAdditionalFields>IsPrimary</customTabListAdditionalFields>
-        <customTabListAdditionalFields>IsDefault</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ActiveFromDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ActiveToDate</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>IsPrimary</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>IsDefault</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>Allocation</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Budget</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ChannelPartner</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Campaign</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CreatedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Amount</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DesiredOutcome</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RequestedAmount</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Allocation</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Budget</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ChannelPartner</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Campaign</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CreatedBy</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Amount</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>DesiredOutcome</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>RequestedAmount</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Allocation</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Budget</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ChannelPartner</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Campaign</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CreatedBy</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Amount</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>DesiredOutcome</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>RequestedAmount</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Status</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Allocation</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Budget</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ChannelPartner</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Campaign</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CreatedBy</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Amount</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>DesiredOutcome</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RequestedAmount</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

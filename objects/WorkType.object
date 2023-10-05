@@ -130,6 +130,11 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>AppointmentCategoryId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ApptStartTimeIntvlInMin</fullName>
         <businessOwnerUser>brunda-dev2@copado.com</businessOwnerUser>
         <complianceGroup>PII</complianceGroup>
